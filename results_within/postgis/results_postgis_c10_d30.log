@@ -1,0 +1,24 @@
+pgbench (16.6 (Ubuntu 16.6-1.pgdg22.04+1))
+progress: 3.0 s, 34706.5 tps, lat 0.276 ms stddev 0.217, 0 failed
+progress: 6.0 s, 38734.4 tps, lat 0.252 ms stddev 0.117, 0 failed
+progress: 9.0 s, 36592.9 tps, lat 0.267 ms stddev 0.141, 0 failed
+progress: 12.0 s, 35733.4 tps, lat 0.273 ms stddev 0.119, 0 failed
+progress: 15.0 s, 32563.3 tps, lat 0.300 ms stddev 0.164, 0 failed
+progress: 18.0 s, 30859.1 tps, lat 0.317 ms stddev 0.153, 0 failed
+progress: 21.0 s, 33670.9 tps, lat 0.290 ms stddev 0.115, 0 failed
+progress: 24.0 s, 29919.8 tps, lat 0.326 ms stddev 0.167, 0 failed
+progress: 27.0 s, 33784.1 tps, lat 0.288 ms stddev 0.103, 0 failed
+progress: 30.0 s, 32139.6 tps, lat 0.304 ms stddev 0.133, 0 failed
+transaction type: postgis_test.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 4
+maximum number of tries: 1
+duration: 30 s
+number of transactions actually processed: 1016114
+number of failed transactions: 0 (0.000%)
+latency average = 0.288 ms
+latency stddev = 0.148 ms
+initial connection time = 48.886 ms
+tps = 33920.897996 (without initial connection time)

@@ -1,0 +1,34 @@
+pgbench (16.6 (Ubuntu 16.6-1.pgdg22.04+1))
+progress: 3.0 s, 27586.4 tps, lat 1.018 ms stddev 0.972, 0 failed
+progress: 6.0 s, 31555.7 tps, lat 0.940 ms stddev 0.495, 0 failed
+progress: 9.0 s, 32682.0 tps, lat 0.909 ms stddev 0.444, 0 failed
+progress: 12.0 s, 32479.5 tps, lat 0.914 ms stddev 0.417, 0 failed
+progress: 15.0 s, 29861.1 tps, lat 0.993 ms stddev 0.602, 0 failed
+progress: 18.0 s, 28817.7 tps, lat 1.029 ms stddev 0.710, 0 failed
+progress: 21.0 s, 23447.0 tps, lat 1.261 ms stddev 0.966, 0 failed
+progress: 24.0 s, 24085.8 tps, lat 1.227 ms stddev 0.866, 0 failed
+progress: 27.0 s, 26444.1 tps, lat 1.121 ms stddev 0.858, 0 failed
+progress: 30.0 s, 31509.8 tps, lat 0.942 ms stddev 0.501, 0 failed
+progress: 33.0 s, 31383.1 tps, lat 0.946 ms stddev 0.515, 0 failed
+progress: 36.0 s, 28967.1 tps, lat 1.024 ms stddev 0.569, 0 failed
+progress: 39.0 s, 32151.0 tps, lat 0.924 ms stddev 0.480, 0 failed
+progress: 42.0 s, 32537.0 tps, lat 0.913 ms stddev 0.443, 0 failed
+progress: 45.0 s, 31427.0 tps, lat 0.945 ms stddev 0.528, 0 failed
+progress: 48.0 s, 32749.2 tps, lat 0.908 ms stddev 0.414, 0 failed
+progress: 51.0 s, 29618.6 tps, lat 1.002 ms stddev 0.505, 0 failed
+progress: 54.0 s, 31094.3 tps, lat 0.955 ms stddev 0.611, 0 failed
+progress: 57.0 s, 32712.2 tps, lat 0.909 ms stddev 0.491, 0 failed
+progress: 60.0 s, 32547.0 tps, lat 0.914 ms stddev 0.500, 0 failed
+transaction type: postgis_test.sql
+scaling factor: 1
+query mode: simple
+number of clients: 30
+number of threads: 4
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 1810994
+number of failed transactions: 0 (0.000%)
+latency average = 0.981 ms
+latency stddev = 0.610 ms
+initial connection time = 150.738 ms
+tps = 30256.678394 (without initial connection time)

@@ -1,0 +1,34 @@
+pgbench (16.6 (Ubuntu 16.6-1.pgdg22.04+1))
+progress: 3.0 s, 27544.8 tps, lat 1.898 ms stddev 2.268, 0 failed
+progress: 6.0 s, 36134.0 tps, lat 1.651 ms stddev 0.733, 0 failed
+progress: 9.0 s, 34610.4 tps, lat 1.723 ms stddev 0.977, 0 failed
+progress: 12.0 s, 32669.5 tps, lat 1.821 ms stddev 1.179, 0 failed
+progress: 15.0 s, 34236.4 tps, lat 1.740 ms stddev 1.010, 0 failed
+progress: 18.0 s, 36250.4 tps, lat 1.645 ms stddev 0.731, 0 failed
+progress: 21.0 s, 36041.6 tps, lat 1.655 ms stddev 0.767, 0 failed
+progress: 24.0 s, 34227.8 tps, lat 1.742 ms stddev 0.911, 0 failed
+progress: 27.0 s, 32435.4 tps, lat 1.835 ms stddev 1.171, 0 failed
+progress: 30.0 s, 31246.0 tps, lat 1.903 ms stddev 1.279, 0 failed
+progress: 33.0 s, 31090.4 tps, lat 1.916 ms stddev 1.052, 0 failed
+progress: 36.0 s, 36479.5 tps, lat 1.635 ms stddev 0.743, 0 failed
+progress: 39.0 s, 36353.8 tps, lat 1.641 ms stddev 0.736, 0 failed
+progress: 42.0 s, 36289.8 tps, lat 1.643 ms stddev 0.717, 0 failed
+progress: 45.0 s, 36379.2 tps, lat 1.640 ms stddev 0.800, 0 failed
+progress: 48.0 s, 36006.3 tps, lat 1.656 ms stddev 0.774, 0 failed
+progress: 51.0 s, 36065.6 tps, lat 1.653 ms stddev 0.774, 0 failed
+progress: 54.0 s, 36316.7 tps, lat 1.642 ms stddev 0.718, 0 failed
+progress: 57.0 s, 36261.5 tps, lat 1.644 ms stddev 0.703, 0 failed
+progress: 60.0 s, 36655.1 tps, lat 1.626 ms stddev 0.702, 0 failed
+transaction type: h3_test.sql
+scaling factor: 1
+query mode: simple
+number of clients: 60
+number of threads: 4
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 2080017
+number of failed transactions: 0 (0.000%)
+latency average = 1.709 ms
+latency stddev = 0.975 ms
+initial connection time = 363.229 ms
+tps = 34873.729712 (without initial connection time)

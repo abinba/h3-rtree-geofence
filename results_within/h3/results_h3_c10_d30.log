@@ -1,0 +1,24 @@
+pgbench (16.6 (Ubuntu 16.6-1.pgdg22.04+1))
+progress: 3.0 s, 39016.3 tps, lat 0.244 ms stddev 0.131, 0 failed
+progress: 6.0 s, 40828.2 tps, lat 0.237 ms stddev 0.091, 0 failed
+progress: 9.0 s, 42034.8 tps, lat 0.230 ms stddev 0.079, 0 failed
+progress: 12.0 s, 42078.8 tps, lat 0.230 ms stddev 0.079, 0 failed
+progress: 15.0 s, 40880.8 tps, lat 0.237 ms stddev 0.088, 0 failed
+progress: 18.0 s, 35580.1 tps, lat 0.272 ms stddev 0.159, 0 failed
+progress: 21.0 s, 23830.5 tps, lat 0.405 ms stddev 0.445, 0 failed
+progress: 24.0 s, 26169.6 tps, lat 0.368 ms stddev 0.337, 0 failed
+progress: 27.0 s, 27221.6 tps, lat 0.354 ms stddev 0.311, 0 failed
+progress: 30.0 s, 27105.7 tps, lat 0.356 ms stddev 0.298, 0 failed
+transaction type: h3_test.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 4
+maximum number of tries: 1
+duration: 30 s
+number of transactions actually processed: 1034241
+number of failed transactions: 0 (0.000%)
+latency average = 0.280 ms
+latency stddev = 0.220 ms
+initial connection time = 48.765 ms
+tps = 34526.246535 (without initial connection time)
