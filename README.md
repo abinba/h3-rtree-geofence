@@ -40,6 +40,10 @@ This article evaluates whether grid-based methods like H3 can offer substantial 
 
 ## Benchmarking pre-requisites
 
+Among the numerous database benchmarking tools, pgbench\cite{postgresql_pgbench} was chosen as the primary candidate. The database was compared for geofencing query patterns using pgbench, which provides output metrics such as latency and transaction throughput, and different configuration options. 
+
+### Preprocessing polygons
+
 ## Results
 
 ![benchmarking](./visualizations/r_tree_vs_h3_pgbench.png)
