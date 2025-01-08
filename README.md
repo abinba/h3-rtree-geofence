@@ -44,6 +44,10 @@ This article evaluates whether grid-based methods like H3 can offer substantial 
 
 ![benchmarking](./visualizations/r_tree_vs_h3_pgbench.png)
 
+As shown in figure, the benchmarking revealed a significant performance difference between two approaches for geofencing when tested with a varying number of concurrent clients (10, 30, and 60). The H3 method consistently demonstrated superior transaction throughput across all concurrency levels, resulting in 20- 25\% better performance, achieving 42,000 TPS versus 34,000 TPS in 10 clients, with the advantage maintained at higher concurrency levels. Similarly, in terms of latency, H3 outperformed R-Tree when the number of clients was increasing.
+
+It is crucial to note that these results specifically pertain to geofencing query patterns, which are particularly suited to H3's hierarchical hexagonal grid structure. Range query performance analysis, while crucial for other aspects of our applications, such as nearby point discovery, was not evaluated due to time constraints and remains an area for future investigation.
+
 ## Disclaimer
 
 ## References
